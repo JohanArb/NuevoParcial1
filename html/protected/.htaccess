@@ -1,0 +1,5 @@
+AuthUserFile "/var/www/.htpasswd"
+AuthGroupFile /dev/null
+AuthName "El pequeño y original sitio de Arboleda"
+AuthType Basic
+require valid-user
